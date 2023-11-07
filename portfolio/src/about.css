@@ -1,0 +1,43 @@
+.about {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  transition: transform 1s ease, opacity 1s ease; /* Added transition properties */
+  transform: translateY(0); /* Initial position */
+  opacity: 1; /* Initial opacity */
+}
+
+.about.slide-up {
+  transform: translateY(-100%); /* Slide up */
+  opacity: 0; /* Fade out */
+}
+
+#about-me {
+  text-align: center;
+  margin: 5rem auto;
+  color: #ff6600;
+  font-size: 4rem;
+}
+
+.about-text {
+  text-align: center;
+  align-items: center;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+}
+
+#marien {
+  height: 20rem;
+  width: auto;
+  display: block;
+  margin: 1rem auto;
+}
