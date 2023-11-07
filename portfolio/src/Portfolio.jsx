@@ -7,7 +7,8 @@ function Portfolio() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const triggerPosition = 150; // Adjust this value based on when you want the animation to trigger
+      const aboutMeSectionHeight = document.getElementById('about-me').clientHeight;
+      const triggerPosition = aboutMeSectionHeight; // Trigger animation when the about me section is out of view
 
       if (scrollY >= triggerPosition) {
         setAnimatePortfolio(true);
@@ -22,10 +23,9 @@ function Portfolio() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  console.log('animatePortfolio:', animatePortfolio);
 
   return (
-    <div id="portfolio" className={animatePortfolio ? 'slide-up' : ''}>
+    <div id="portfolio" className={animatePortfolio ? 'slide-in-from-bottom animated' : 'slide-in-from-bottom'}>
       <h1 id="title">Portfolio</h1>
       <div className="projects">
         <div className="project-container" id="pawgress">

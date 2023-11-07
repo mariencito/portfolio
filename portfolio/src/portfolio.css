@@ -4,11 +4,19 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transform: translateY(0);
-  opacity: 1;
-  transition: transform 3s ease, opacity 3s ease;
+  height: 100vh;
 }
 
+.slide-in-from-bottom {
+  transform: translateY(-20%); /* Starting position, off the screen */
+  opacity: 0; /* Starting opacity, hidden */
+  transition: transform 3s ease, opacity 2s ease;
+}
+
+.slide-in-from-bottom.animated {
+  transform: translateY(0); /* Ending position, fully visible */
+  opacity: 1; /* Ending opacity, fully opaque */
+}
 
 .project-container.slide-up {
   /* Animation state styles */
@@ -28,6 +36,7 @@
   justify-content: center;
   gap: 20px;
 }
+
 
 .project-container {
   background-color: #ff6600;
