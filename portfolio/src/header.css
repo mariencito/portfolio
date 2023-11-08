@@ -14,6 +14,7 @@ header {
 
 #name{
   margin-left: 2rem;
+  color: #ff6600;
   
 }
 
@@ -43,7 +44,7 @@ nav ul li a:hover {
   color: #ff6600; 
 }
 
- @media screen and (max-width:400px){
+ @media screen and (max-width:600px){
   #name{
     display: none;
   }

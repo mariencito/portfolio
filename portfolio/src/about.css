@@ -5,7 +5,7 @@
   align-items: center;
   text-align: center;
   height: 100vh;
-  transition: transform 1s ease, opacity 1s ease; /* Added transition properties */
+  transition: transform 3s ease, opacity 1s ease; /* Added transition properties */
   transform: translateY(0); /* Initial position */
   opacity: 1; /* Initial opacity */
 }
@@ -40,4 +40,17 @@
   width: auto;
   display: block;
   margin: 1rem auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  #marien{
+    height: 15rem;
+    
+  }
+
+  #about-me{
+    margin: 3rem auto;
+  }
+
 }

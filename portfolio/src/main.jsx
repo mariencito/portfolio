@@ -4,7 +4,12 @@ import Header from './Header'
 import About from './About'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
+import Footer from './Footer'
 import './index.css'
+
+
+
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,7 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
      <About/> 
     <Portfolio/>
     <Contact/>
+    <Footer/>
      
    
   </React.StrictMode>,
-)
+);
