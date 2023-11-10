@@ -47,11 +47,13 @@
 @media screen and (max-width: 600px) {
   #marien{
     height: 15rem;
+    margin: 0rem;
     
   }
 
   #about-me{
-    margin: 3rem auto;
+    margin: 2rem auto;
+    margin-top: 3rem;
   }
 
 }
