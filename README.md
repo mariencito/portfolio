@@ -10,7 +10,7 @@
 
 
 ## Description
-    This is my portfolio that I built using React.
+    This is my portfolio that I built using React and Node.
 ## Installation
     To install you could download the code and open the terminal. run npm i to install the packages and npm run dev to start the application
 ## Usage
