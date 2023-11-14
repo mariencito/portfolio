@@ -12,14 +12,17 @@ import './index.css'
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
-     <Header/>
-     <About/> 
-    <Portfolio/>
-    <Contact/>
-    <Footer/>
+   
+        <Header />
+        <About/>
+        <Portfolio />
+        <Contact/>
+        <Footer />
+   
      
    
   </React.StrictMode>,
